@@ -14,8 +14,6 @@ class server {
 
             System.out.println(order);
 
-            System.out.println();
-
             socket.close();
         } catch (IOException exception) {}
     }
