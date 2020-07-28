@@ -5,11 +5,14 @@ public class Order {
     String name;
     String name2;
     int num;
-    Order o;
+
+
+    public Order(){
+
+    }
 
     public Order(Object o){
 
-        this.o = o;
     }
 
     public Order(String name, int num, String name2){
